@@ -6,7 +6,7 @@ The designs are in JPG static format. Using JPGs will mean that you'll need to u
 
 You will find all the required assets in the `/images` folder. The assets are already optimized.
 
-There is also a `style-guide.md` file in the `/utils' folder containing the information you'll need, such as color palette and fonts.
+There is also a `style-guide` folder containing a figma file that contains information you'll need, such as color palette and fonts.
 
 Your users should be able to: 
 
