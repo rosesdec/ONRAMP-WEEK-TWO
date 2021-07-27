@@ -1,4 +1,126 @@
-body{
-    background-image:/images/mobile.jpg;
-    
+*{
+    box-sizing:border-box;
 }
+.container{
+    display:grid;
+    grid-template-rows: 3fr 1fr 0.8fr;
+}
+   
+  
+ 
+/* #image{
+    height:fit-content; 
+} */
+
+.box{
+    /* text-align: left;  
+    align-self:flex-start;
+    float:left */
+    display:flex;
+    flex-direction: column;
+}
+
+h2{
+    margin-top: 2em;
+    padding-bottom: 2em;
+    font-weight: 800;
+    font-size:40px
+}
+.dineup{
+margin-left: 7em;
+margin-top: 5em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-left: 10em;
+}
+
+
+.top{
+    background-image: url("utils/images/hero-bg-desktop.jpg");
+    color:white;
+    display:flex;
+    flex-direction: column;
+    text-align: left;  
+  
+}
+#mid{
+    /* height:10%; */
+    margin-top: 0em;
+    padding-left: 35em;
+    padding-right: -20em;
+    padding-top:-20em;
+    padding-bottom: 6em;
+    fill-rule: #9E7F66;
+     <svg xmlns="http://www.w3.org/2000/svg" width="160" height="76"><g fill="#9E7F66" fill-rule="evenodd"><path d="M0 70h160v6H0zM0 56h160v6H0zM0 42h160v6H0zM0 28h160v6H0zM0 14h160v6H0zM0 0h160v6H0z"/></g></svg>
+}
+
+   input{
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   }
+date{
+    border:none;
+    border-bottom: 1px dashed;
+}
+
+
+
+.footer{
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction: row;
+
+}  
+.submit{
+    color:white;
+    padding-right:5px;
+    margin:20px; 
+    justify-content: center;
+    padding: 1em;
+    padding-right: 10em;
+    padding-left:10em;
+    border:0.8px solid;
+    box-sizing: content-box;
+    background-color: black;
+    text-align:justify;
+
+
+}
+  
+
+.form-box{
+    color:black;
+    background-color: white;
+    margin-top: 20em;
+    margin-left: 40em;
+    margin-right: 12em;
+    margin-bottom: -5em;
+    padding-left: 3em;
+    padding-right:2em;
+    padding-top: 2em;
+min-height: 50%;
+    z-index:1;
+    position:absolute;
+    visibility: offset 10px;
+}
+
+@media{
+    max width:
+}
+pre{
+    margin:7em;
+    margin-top: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: -8em;
+    font-size: 15px;
+}
+
+h3{
+    font-size: 32px;
+    margin-top: -0.5em;
+}
+
+
+
